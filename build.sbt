@@ -3,7 +3,7 @@ import NativePackagerHelper._
 val Http4sVersion = "0.23.14"
 val TapirVersion = "0.20.0-M7"
 val DoobieVersion = "1.0.0-RC2"
-val PureConfigVersion = "0.17.1"
+val PureConfigVersion = "0.17.7"
 
 lazy val root = (project in file("."))
   .settings(
