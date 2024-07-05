@@ -28,7 +28,7 @@ lazy val root = (project in file("."))
       "com.softwaremill.sttp.tapir" %% "tapir-zio-http4s-server" % TapirVersion,
       "com.softwaremill.sttp.tapir" %% "tapir-json-circe"        % TapirVersion,
       "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % TapirVersion,
-      "io.circe"                    %% "circe-generic"           % "0.14.2",
+      "io.circe"                    %% "circe-generic"           % "0.14.9",
       "org.tpolecat"           %% "doobie-core"            % DoobieVersion,
       "org.tpolecat"           %% "doobie-postgres"        % DoobieVersion,
       "org.tpolecat"           %% "doobie-hikari"          % DoobieVersion,
